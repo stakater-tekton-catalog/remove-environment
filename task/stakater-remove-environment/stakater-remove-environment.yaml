@@ -5,7 +5,7 @@ kind: Task
 metadata:
   name: stakater-remove-environment
   labels:
-    app.kubernetes.io/version: "0.0.8"
+    app.kubernetes.io/version: "0.0.9"
 spec:
   description: Remove an Environment CR if pipeline fails before / on update-cd-repo.
   params:
